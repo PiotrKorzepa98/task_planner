@@ -11,6 +11,8 @@ public class UserDTO {
   private UserRole role;
   private boolean banned;
 
+  private String = "123";
+
   public UserDTO(User user) {
     this.username = user.getUsername();
     this.email = user.getEmail();
